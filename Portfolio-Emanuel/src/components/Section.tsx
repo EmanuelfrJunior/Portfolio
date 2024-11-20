@@ -2,7 +2,7 @@ export function SectionComponents(){
 
     return(
         <>
-        <div className="bg-gray-900 w-full h-[150px] text-gray-900">a</div>
+        <div className="bg-gray-900 w-full h-[200px] text-gray-900">a</div>
 
         <div className="flex justify-between pl-10 pr-10">
             <div>
