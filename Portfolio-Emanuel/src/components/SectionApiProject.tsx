@@ -51,8 +51,8 @@ export function SectionAPIComponents(){
 
         <div className='w-[350px]'></div>
 
-        <div className='bg-yellow-600  w-[40%] h-[815x] p-2'>
-            <div className='bg-white w-full h-[800px] p-4'>
+        <div className='bg-yellow-600  w-[40%] h-[500px] p-2'>
+            <div className='bg-white w-full h-[480px] p-4'>
                 <div>
                 <h2 id='CorGold' className=" flex mx-auto items-center justify-center mb-10 text-2xl font-bold mb-4">Repositórios:</h2>
                 <ul className="space-y-2">
