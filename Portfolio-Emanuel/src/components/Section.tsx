@@ -2,9 +2,9 @@ export function SectionComponents(){
 
     return(
         <>
-        <div className="bg-gray-900 w-full h-[200px] text-gray-900">a</div>
+        <div className="bg-gray-900 w-full h-[100px] text-gray-900">a</div>
 
-        <div className="flex justify-between pl-10 pr-10">
+        <div className="flex justify-between pl-20 pr-20">
             <div>
             <div className=" text-white font-black">
                  <span className="text-2xl">Me Chamo</span> <br/>
@@ -19,8 +19,10 @@ export function SectionComponents(){
             </div>
             </div>
 
-            <div className="bg-yellow-500 w-80 h-[400px] rounded-lg ">
-
+            <div className="bg-white w-[350px] h-[410px] p-1 rounded-lg">
+            <div className="bg-yellow-500 w-70 h-[400px] rounded-lg pl-10  ">
+                <img className="w-full h-[400px]" src="src/assets/iam.png" alt="" />
+            </div>
             </div>
         </div>
         </>

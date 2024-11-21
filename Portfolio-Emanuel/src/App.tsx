@@ -2,10 +2,12 @@ import { useState } from 'react'
 import './App.css'
 import { HeaderComponents } from './components/Header'
 import { SectionComponents } from './components/Section'
+import { FooterComponents } from './components/footer'
+
 
 
 export function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
@@ -17,7 +19,9 @@ export function App() {
         <div>
             <SectionComponents/>
         </div>
-        
+        <div>
+          <FooterComponents/>
+        </div>
     </div>
     </>
   )
